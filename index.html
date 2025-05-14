@@ -51,15 +51,7 @@
 				// フルスクリーン表示なら解除する
 				if( checkFullScreen() ) {
 
-					if( document.exitFullscreen ) {
-						document.exitFullscreen();
-					} else if( document.mozCancelFullScreen ) {
-						document.mozCancelFullScreen();
-					} else if( document.webkitCancelFullScreen ) {
-						document.webkitCancelFullScreen();
-					} else if( document.msExitFullscreen ) {
-						document.msExitFullscreen();
-					}
+					
 
 				// 通常表示ならフルスクリーン表示位にする
 				} else {
